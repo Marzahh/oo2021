@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+///this is my homework for the first class
 public class Second {
     public static void main(String[] args){
         Scanner num = new Scanner(System.in);
