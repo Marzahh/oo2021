@@ -11,6 +11,6 @@ public class Second {
         second = num.nextInt();
         result = first%second;
         
-        System.out.println("Result is " + result);
+        System.out.println("The remainder of the number is " + result);
     }
 }
