@@ -1,14 +1,16 @@
-public class Warehouse  {
+package w03_klassikomplekt;
+
+import java.util.ArrayList;
+
+class Warehouse {
     
-    public static void modificate(string[] ArrayList) {
-    Fridge.fridgeName.add("Fujitsu");
-    Fridge.fridgeName.delete("LG");
-    Fridge.fridgeName.contains("LG");
+    ArrayList<String> modificate(ArrayList<String> love) {
+    ArrayList<String> evenmoremagical = love;
+    evenmoremagical.add("Fujitsu");
+    //((Object) evenmoremagical).delete("LG");
+    //evenmoremagical.contains("LG");
 
-
-
+    return evenmoremagical;
 
     }
-
-	
 }

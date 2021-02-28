@@ -1,3 +1,5 @@
+package w02_klass;
+
 public class GameCharacter {
     public int damage = 100;
 

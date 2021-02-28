@@ -1,9 +1,12 @@
+package w03_klassikomplekt;
+
 import java.util.ArrayList;
 
-public class Fridge {
+class Fridge {
     
-    public ArrayList<String> fridgeName = new ArrayList<>();
-	public static void showFridges (){
+    ArrayList<String> magicnumbers(){
+        ArrayList<String> fridgeName = new ArrayList<String>();
+	
         
         
         fridgeName.add("LG");
@@ -12,9 +15,8 @@ public class Fridge {
         fridgeName.add("Haier");
         fridgeName.add("Panasonic");
 
-        System.out.print(fridgeName);
-
-
-        }
-    public static ArrayList fridgeName();
+        return fridgeName;
+    }
 }
+    
+
