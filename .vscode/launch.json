@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Trying",
+            "request": "launch",
+            "mainClass": "w05_kontrolltoo1.Trying",
+            "projectName": "oo2021_8e41e088"
+        },
+        {
+            "type": "java",
             "name": "Launch StudyingString",
             "request": "launch",
             "mainClass": "w03_klassikomplekt.StudyingString",
