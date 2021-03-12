@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LearningScanner",
+            "request": "launch",
+            "mainClass": "w05_kontrolltoo1.LearningScanner",
+            "projectName": "oo2021_8e41e088"
+        },
+        {
+            "type": "java",
+            "name": "Launch bla",
+            "request": "launch",
+            "mainClass": "w05_kontrolltoo1.bla",
+            "projectName": "oo2021_8e41e088"
+        },
+        {
+            "type": "java",
+            "name": "Launch PlaceForErrors",
+            "request": "launch",
+            "mainClass": "w05_kontrolltoo1.PlaceForErrors",
+            "projectName": "oo2021_8e41e088"
+        },
+        {
+            "type": "java",
             "name": "Launch Trying",
             "request": "launch",
             "mainClass": "w05_kontrolltoo1.Trying",
