@@ -45,3 +45,14 @@ STRINGBUILDER
 
     
 }
+
+
+There is a default class Object. That has all of those methodes that are build in. Every folowing class gets everything from object class.
+So method .toString() is something that works default fro example when we call out system.out.print(str2); It will print out hash code.
+But what we can do is to make a method inside out own class like 
+public String toString() 
+{ 
+    return name+","+age;
+}
+and give the existing method new default meaning within our class. So whenever I would ask to print out new person in class HUMAN
+it will give me his name and age by default.

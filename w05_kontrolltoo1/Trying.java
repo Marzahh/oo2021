@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 
 
-public class Trying {
+public class  Trying {
     public static void main(String[] args) {
         Scanner scan = null;
         try {
@@ -47,7 +47,7 @@ public class Trying {
             }
             System.out.println("There are "+aCount+" letters 'A'. "); 
             System.out.println();
-            
+
             //HOW MANY LETTERS IN TOTAL TEXT HAS
             for(String element : text){
                 for (int i=0;i<=element.length()-1;i++){
@@ -71,7 +71,7 @@ public class Trying {
 
             //COUNTING NUMBER OF WORDS THAT HAVE 1/2/3 or more 'A' LETTER IN THEM
             for(String element : text){
-            wordWithA = 0;
+                wordWithA = 0;
                 for (int i=0;i<=element.length()-1;i++){
                     if (element.charAt(i) == 'A' || element.charAt(i) == 'a') {
                         wordWithA++;
