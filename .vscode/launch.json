@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
+            "mainClass": "w08_alamklassid.homeworkAnimals.Main",
+            "projectName": "oo2021_8e41e088"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
             "mainClass": "w06_liides.OwnIdeaHomework.Main",
             "projectName": "oo2021_8e41e088"
         },
